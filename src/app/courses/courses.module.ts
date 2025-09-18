@@ -12,11 +12,13 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { SharedModule } from '../shared/shared.module';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { CourseFormComponent } from './course-form/course-form.component';
 
 
 @NgModule({
   declarations: [
-    CoursesComponent
+    CoursesComponent,
+    CourseFormComponent
   ],
   imports: [
     CommonModule,
