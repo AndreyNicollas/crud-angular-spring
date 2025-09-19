@@ -13,7 +13,9 @@ import { SharedModule } from '../shared/shared.module';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { CourseFormComponent } from './course-form/course-form.component';
-
+import { ReactiveFormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input'
 
 @NgModule({
   declarations: [
@@ -30,7 +32,10 @@ import { CourseFormComponent } from './course-form/course-form.component';
     MatDialogModule,
     SharedModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    ReactiveFormsModule,
+    MatFormFieldModule,
+    MatInputModule
   ]
 })
 export class CoursesModule { }
